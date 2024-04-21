@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+section,
+aside,
+footer {
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+table {
+  width: 370px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  margin: 2px;
+  max-width: 370;
+  max-height: 370;
+}
+
+td {
+  padding-left: 10px;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+/*** LOGIN ***/
+
+.login {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+/*** Forum ***/
+
+.postmessagearea {
+ 
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+
+.messagearea {
+ 
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+
+.messageareaimg {
+  max-width: 370px;
+  max-height: 370px;
+}
+
+/* Admin */
+.changepassword{
+  padding-bottom: 10px;
+}
+
+button {
+  margin: 2px;
+}
+
+.formtable {
+  display: table;
+}
+.formrow {
+  display: table-row;
+}
+.formcell {
+  display: table-cell;
+}
+
+.navuserimage {
+  border-radius: 50%;
+  border: 1px solid #000000;
+  width: 50px;
+  height: 50px;
+}
+
+.navusersection {
+ padding-left: 100px;
+}
+
+.messageuserimg {
+  width: 20px; 
+  height: 20px;
+  padding-left: 10px;
+}
+
+.error{
+  color: red;
+}
+
+.submit{
+  display: inline-block;
+  }
